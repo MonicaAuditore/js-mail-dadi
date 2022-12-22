@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-image: linear-gradient(
+    to right top,
+    #ff38cd,
+    #ba41b5,
+    #7d3e93,
+    #4a336a,
+    #26223d
+  );
+}
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 60%;
+  height: 100vh;
+  background-image: url(../img/BASE.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contenitorePunteggi {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 88%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 250px;
+  text-shadow: 1px 5px 24px rgb(255 57 190);
+  padding-top: 55px;
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  font-size: 50px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+  h1 {
+    font-size: 125px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 125px;
+  }
+
+  h2 {
+    font-size: 40px;
+    padding-top: 19px;
+  }
+  .container {
+    max-width: 94%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  h2 {
+    font-size: 20px;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 90px;
+  }
+
+  h2 {
+    font-size: 20px;
+    padding-top: 0px;
+  }
+}
