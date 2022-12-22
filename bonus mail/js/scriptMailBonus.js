@@ -35,6 +35,10 @@ const email = [
 ];
 
 function myFunction() {
+  // Inserimento audio al click del bottone;
+  var audio = document.getElementById("audio");
+  audio.play();
+
   // Validazione della mail;
   var emailCheck =
     /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/i;
