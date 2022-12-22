@@ -28,14 +28,14 @@ var emailCheck =
 
 if (mailUtente.match(emailCheck)) {
   console.log("La mail è valida");
-  for (i = 0; i < 5; i++) {
+  for (i = 0; i < email.length; i++) {
     console.log(email[i]);
   }
-  if ((email[i] = mailUtente)) {
-    console.log("La mail è presente");
+  if (mailUtente.includes(email[i])) {
+    console.log("in elenco");
     alert("La mail è presente.");
   } else {
-    console.log("La mail non è presente");
+    console.log("non in elenco");
     alert("La mail non è presente.");
   }
 } else {
