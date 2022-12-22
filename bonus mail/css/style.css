@@ -28,8 +28,45 @@ body {
 }
 
 .center {
-  width: 400px;
+  width: 456px;
   margin: auto;
   border-radius: 5px;
   padding: 55px 45px;
+  z-index: 200;
+  background-color: rgba(0, 0, 0, 0.745);
+  box-shadow: -1px 4px 28px 0px rgba(200, 166, 193, 0.486);
+}
+
+.center h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 27px;
+}
+
+.input-field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.inputButton {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.inputButton button {
+  padding: 10px;
+}
+
+p {
+  color: #565656;
+  text-align: center;
+}
+
+#messaggio {
+  color: #fff;
+  padding-bottom: 20px;
+  text-align: center;
 }
