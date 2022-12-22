@@ -52,6 +52,25 @@ h2 {
   text-align: center;
 }
 
+button {
+  margin-left: 46%;
+  margin-top: 40px;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #ff67e0;
+  border-radius: 10px;
+  -webkit-box-shadow: inset -1px -35px 49px -31px #ff39be;
+
+  border-color: #e74eb8;
+}
+
+.tastoPlay {
+  font-size: 15px;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: #ffffffe0;
+}
+
 @media screen and (max-width: 1440px) {
   h1 {
     font-size: 125px;
