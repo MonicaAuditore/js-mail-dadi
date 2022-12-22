@@ -33,6 +33,7 @@ if (mailUtente.match(emailCheck)) {
   }
   if ((email[i] = mailUtente)) {
     console.log("La mail è presente");
+    alert("La mail è presente.");
   } else {
     console.log("La mail non è presente");
     alert("La mail non è presente.");
