@@ -1,0 +1,35 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-image: url(../img/aleksandr-popov-vCbKwN2IXT4-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.475);
+}
+
+.center {
+  width: 400px;
+  margin: auto;
+  border-radius: 5px;
+  padding: 55px 45px;
+}

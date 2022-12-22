@@ -4,14 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awasome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- fine font awasome -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fine google font -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Mail Bonus</title>
   </head>
   <body>
-    <label for="emailField">Inserisci la tua email:</label>
-    <input type="emailField" id="emailId" name="" value="" placeholder="" />
-    <button onclick="myFunction()">Controlla</button>
-    <div id="messaggio"><h1></h1></div>
+    <!-- <label for="emailField">Inserisci la tua email:</label>
+    <input type="emailField" id="emailId" name="" value="" placeholder="" /> -->
+
+    <!-- Creazione form -->
+    <div class="container">
+      <div class="center">
+        <h2>Inserisci la tua mail:</h2>
+        <div class="input-field">
+          <input
+            type="emailField"
+            id="emailId"
+            name=""
+            value=""
+            placeholder=""
+          />
+          <i class="fa-regular fa-envelope"></i>
+        </div>
+        <div class="inputBotton">
+          <button onclick="myFunction()">Controlla</button>
+        </div>
+        <div id="messaggio"><h1></h1></div>
+        <div class="richiesta">
+          <p>Non sei nell'elenco? <a href="">Chiedi l'invito</a></p>
+        </div>
+      </div>
+    </div>
 
     <script type="text/javascript" src="js/scriptMailBonus.js"></script>
   </body>
