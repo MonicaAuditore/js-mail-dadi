@@ -31,7 +31,7 @@ if (mailUtente.match(emailCheck)) {
   for (i = 0; i < email.length; i++) {
     console.log(email[i]);
   }
-  if (mailUtente.includes(email[i])) {
+  if (email.includes(mailUtente)) {
     console.log("in elenco");
     alert("La mail è presente.");
   } else {
