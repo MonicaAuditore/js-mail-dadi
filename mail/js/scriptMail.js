@@ -28,7 +28,14 @@ var emailCheck =
 
 if (mailUtente.match(emailCheck)) {
   console.log("La mail è valida");
-  for (i = 0; i < 5; i++) console.log(email[i]);
+  for (i = 0; i < 5; i++) {
+    console.log(email[i]);
+  }
+  if (mailUtente === email[i]) {
+    console.log("La mail è presente");
+  } else {
+    console.log("la mail non è presente");
+  }
 } else {
   alert("La mail non è valida, aggiornare la pagina e riprovare.");
   console.log("La mail non è valida");
