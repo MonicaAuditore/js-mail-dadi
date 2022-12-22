@@ -39,7 +39,7 @@ body {
 
 .center h2 {
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 27px;
 }
 
@@ -56,8 +56,53 @@ body {
   padding-bottom: 30px;
 }
 
-.inputButton button {
-  padding: 10px;
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: ;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+  font-weight: 800;
+    color: #ffffff8f;
+    letter-spacing: 2px;
+}
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-colore {
+  background-image: linear-gradient(
+    to right,
+    #673ab7 0%,
+    #ca1ee9 51%,
+    #2c0135 100%
+  );
+}
+
+.input-field input {
+  background: transparent;
+  border: 1px solid #673ab7;
+  border-radius: 3px;
+  color: #fff;
+  padding-left: 40px;
+}
+
+.input-field i {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  color: #ca1ee9;
 }
 
 p {
@@ -69,4 +114,8 @@ p {
   color: #fff;
   padding-bottom: 20px;
   text-align: center;
+}
+
+#emailId {
+  height: 40px;
 }
