@@ -31,10 +31,11 @@ if (mailUtente.match(emailCheck)) {
   for (i = 0; i < 5; i++) {
     console.log(email[i]);
   }
-  if (mailUtente === email[i]) {
+  if ((email[i] = mailUtente)) {
     console.log("La mail è presente");
   } else {
-    console.log("la mail non è presente");
+    console.log("La mail non è presente");
+    alert("La mail non è presente.");
   }
 } else {
   alert("La mail non è valida, aggiornare la pagina e riprovare.");
