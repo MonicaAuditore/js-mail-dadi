@@ -12,7 +12,7 @@ body {
 .container {
   display: flex;
   height: 100vh;
-  background-image: url(../img/aleksandr-popov-vCbKwN2IXT4-unsplash.jpg);
+  background-image: url(../img/club2.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -64,7 +64,6 @@ body {
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: ;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   border: none;
@@ -82,16 +81,17 @@ body {
 
 .btn-colore {
   background-image: linear-gradient(
-    to right,
-    #673ab7 0%,
-    #ca1ee9 51%,
-    #2c0135 100%
+    to right top,
+
+    #8c1048,
+    #772861,
+    #360064
   );
 }
 
 .input-field input {
   background: transparent;
-  border: 1px solid #673ab7;
+  border: 1px solid #360064;
   border-radius: 3px;
   color: #fff;
   padding-left: 40px;
@@ -101,7 +101,7 @@ body {
   position: absolute;
   top: 13px;
   left: 16px;
-  color: #ca1ee9;
+  color: #8c1247;
 }
 
 p {
@@ -117,4 +117,12 @@ p {
 
 #emailId {
   height: 40px;
+}
+
+a {
+  color: #360064;
+}
+
+a:focus {
+  color: #ca1ee9;
 }
