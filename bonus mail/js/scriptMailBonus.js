@@ -35,7 +35,7 @@ const email = [
 ];
 
 function myFunction() {
-  // Inserimento audio al click del bottone;
+  // Inserimento audio al click del bottone
   var audio = document.getElementById("audio");
   audio.play();
 
